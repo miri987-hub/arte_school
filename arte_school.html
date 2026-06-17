@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>학교관련 면접코칭 필독사항</title>
+<meta property="og:title" content="학교관련 면접코칭">
+<meta property="og:description" content="아르떼스피치 사전과제 링크 🤍">
+<meta property="og:image" content="https://drive.google.com/uc?export=view&id=1kpC0uOHAtLy6FTdq3R_jav6_PLcE_8Th">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body,div,p,span,a{font-family:'Noto Sans KR',-apple-system,sans-serif}
+body{background:#f5f3ff}
+.wrap{max-width:480px;margin:0 auto;background:#f5f3ff;min-height:100vh}
+.hero{text-align:center;padding:2.8rem 1.5rem 2rem;background:#fff;border-bottom:2px solid #7c3aed}
+.hero-kicker{font-size:12px;letter-spacing:0.16em;color:#7c3aed;text-transform:uppercase;margin-bottom:10px;font-weight:600}
+.hero-name{font-size:22px;font-weight:700;color:#1a1a1a;margin-bottom:10px}
+.hero-msg{font-size:13px;color:#444;line-height:1.9;max-width:320px;margin:0 auto}
+.hero-brand{font-size:11px;color:#999;margin-top:8px;letter-spacing:0.04em}
+.acc-list{padding:1.25rem 1rem}
+.guide-text{text-align:center;font-size:13px;font-weight:700;color:#1a6fb5;margin-bottom:14px}
+.acc-item{border:1px solid #ddd6fe;border-radius:12px;margin-bottom:12px;overflow:hidden;background:#fff}
+.acc-head{display:flex;align-items:center;gap:12px;padding:16px;cursor:pointer;background:#fff;transition:background 0.15s}
+.acc-head:hover{background:#faf5ff}
+.acc-icon{width:38px;height:38px;border-radius:10px;background:#ede9fe;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.acc-icon i{font-size:18px;color:#7c3aed}
+.acc-head-text{flex:1}
+.acc-head-title{font-size:15px;font-weight:700;color:#1a1a1a}
+.acc-head-sub{font-size:12px;color:#999;margin-top:2px}
+.acc-chevron{font-size:15px;color:#ccc;transition:transform 0.22s}
+.acc-body{display:none;border-top:1px solid #ede9fe;padding:18px;background:#fff}
+.acc-item.open .acc-body{display:block}
+.acc-item.open .acc-chevron{transform:rotate(180deg)}
+.sec-title{font-size:13px;font-weight:700;color:#7c3aed;margin:18px 0 10px;display:flex;align-items:center;gap:6px}
+.sec-title:first-child{margin-top:0}
+.sec-title i{font-size:15px}
+.deadline-box{background:#faf5ff;border-left:3px solid #7c3aed;border-radius:0 10px 10px 0;padding:12px 14px}
+.deadline-main{font-size:14px;font-weight:700;color:#1a1a1a;margin-bottom:6px;line-height:1.7}
+.deadline-sub{font-size:13px;color:#555;line-height:1.9}
+.alert-box{background:#fff1f1;border:1.5px solid #e53e3e;border-radius:10px;padding:12px 14px;margin-bottom:14px}
+.alert-box p{font-size:13px;color:#c53030;font-weight:700;line-height:1.8}
+.checklist{display:flex;flex-direction:column;gap:10px}
+.check-item{display:flex;gap:10px;align-items:flex-start}
+.check-num{width:22px;height:22px;border-radius:50%;background:#7c3aed;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;flex-shrink:0;margin-top:2px}
+.check-content{flex:1;min-width:0}
+.check-content strong{font-size:13px;font-weight:700;color:#1a1a1a;display:block;line-height:1.7}
+.sub-list{margin-top:5px;display:flex;flex-direction:column;gap:3px}
+.sub-item{font-size:12px;color:#555;line-height:1.7;padding-left:12px;position:relative}
+.sub-item::before{content:"—";position:absolute;left:0;color:#999}
+.file-btn{display:flex;align-items:center;gap:10px;padding:12px 14px;background:#faf5ff;border:1px solid #ddd6fe;border-radius:10px;text-decoration:none;margin-top:10px}
+.file-btn i{font-size:17px;color:#7c3aed;flex-shrink:0}
+.file-btn-text{font-size:13px;font-weight:700;color:#1a1a1a}
+.file-btn-sub{font-size:11px;color:#888;margin-top:2px}
+.file-btn-arrow{font-size:14px;color:#bbb;margin-left:auto}
+.note-list{display:flex;flex-direction:column;gap:8px}
+.note-item{font-size:13px;color:#444;line-height:1.8;padding-left:18px;position:relative}
+.note-item::before{content:"✔";position:absolute;left:0;color:#7c3aed;font-size:12px}
+.red{color:#c0392b;font-weight:700}
+.supply-box{background:#fafafa;border-radius:10px;padding:14px}
+.supply-row{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.supply-star{font-size:18px}
+.supply-items{display:flex;gap:8px}
+.supply-item{font-size:14px;font-weight:700;color:#1a1a1a;text-decoration:underline;text-underline-offset:3px}
+.supply-note{font-size:13px;color:#666;line-height:1.7;margin-top:6px}
+.supply-alert{font-size:13px;font-weight:700;color:#c53030;margin-bottom:6px}
+.divider{height:1px;background:#f0f0f0;margin:16px 0}
+.video-btn{display:flex;align-items:center;gap:10px;padding:14px 16px;background:#faf5ff;border:1px solid #ddd6fe;border-radius:10px;text-decoration:none;margin-top:4px}
+.video-btn i{font-size:20px;color:#7c3aed;flex-shrink:0}
+.video-btn-text{font-size:13px;font-weight:700;color:#1a1a1a}
+.video-btn-sub{font-size:11px;color:#888;margin-top:2px}
+.video-btn-arrow{font-size:14px;color:#bbb;margin-left:auto}
+.event-box{background:#fff;border:2px solid #7c3aed;border-radius:12px;padding:16px;text-align:center}
+.event-icon{font-size:36px;margin-bottom:8px}
+.event-title{font-size:15px;font-weight:700;color:#7c3aed;margin-bottom:6px}
+.event-desc{font-size:13px;color:#444;line-height:1.9}
+.yellow-ul{text-decoration:underline double #f5c842;text-underline-offset:3px;font-weight:700;color:#1a1a1a}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <p class="hero-kicker">Arte Speech</p>
+    <p class="hero-name">학교 면접 과제 안내</p>
+    <p class="hero-msg">수업 사전 과제입니다. 담당 강사가 미리 검토하여 1:1 맞춤 수업에 반영합니다.</p>
+    <p class="hero-brand">스피치/면접 대표 브랜드, ARTE SPEECH가 함께 합니다.</p>
+  </div>
+
+  <div class="acc-list">
+    <p class="guide-text">본인에게 해당되는 페이지를 클릭해주세요!</p>
+
+    <!-- 고입 -->
+    <div class="acc-item">
+      <div class="acc-head" onclick="toggle(this)">
+        <div class="acc-icon"><i class="ti ti-school"></i></div>
+        <div class="acc-head-text">
+          <p class="acc-head-title">고입 면접</p>
+          <p class="acc-head-sub">고등학교 입학 면접</p>
+        </div>
+        <i class="ti ti-chevron-down acc-chevron"></i>
+      </div>
+      <div class="acc-body">
+        <div class="alert-box">
+          <p>🚨 부모님께서 대신 작성해 주신 자료는 실제 면접에서 학생 본인의 답변으로 이어지지 않기 때문에 받지 않고 있습니다. 학생이 스스로 생각을 정리하여 작성하는 과정이 가장 중요하므로, 반드시 본인이 직접 작성해 주셔야 합니다.</p>
+        </div>
+        <p class="sec-title"><i class="ti ti-clock"></i>자료 제출 기한</p>
+        <div class="deadline-box">
+          <p class="deadline-main"><span class="yellow-ul">수업 이틀 전 오후 9시까지 메일로 보내주세요!</span></p>
+          <p class="deadline-sub">예) 15일 수업 → 13일 저녁 9시까지<br>당일·하루 전 예약 시 → 예약하신 당일 밤 또는 수업 4시간 전까지<br>이메일 또는 학원 카톡</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-paperclip"></i>첨부 자료 (메일 제목: 본인 이름 · hwp 파일)</p>
+        <div class="checklist">
+          <div class="check-item">
+            <div class="check-num">1</div>
+            <div class="check-content">
+              <strong>지원학교 면접 관련 서류</strong>
+              <div class="sub-list">
+                <p class="sub-item">자기소개서 · 생활기록부 · 학업계획서 등</p>
+                <p class="sub-item">제출해야 하는 자료에 한해서</p>
+              </div>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">2</div>
+            <div class="check-content">
+              <strong>자기소개 및 질문 항목 — 아래 파일 다운로드 받아주세요! (학생 본인 작성)</strong>
+              <div class="sub-list">
+                <p class="sub-item">1분 자기소개 · 학과 및 학교 지원 동기 · 성격의 장·단점 · 입학 후 학업 및 진로 계획</p>
+              </div>
+              <a class="file-btn" href="https://drive.google.com/uc?export=download&id=12bq5Sn8jkgef2nmr30gSpXiVumE_sBtu" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">고입 필수발언 가이드라인 (hwp)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+              <a class="file-btn" href="https://docs.google.com/document/d/1u0730wxpiWYorA27X_vhembYbtHbhZWD/export?format=docx" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">고입 필수발언 가이드라인 (docx)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">3</div>
+            <div class="check-content"><strong>진로·학업 성취와 관련된 대표 경험 (학생 본인 작성)</strong></div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-info-circle"></i>유의사항</p>
+        <div class="note-list">
+          <p class="note-item">②, ③번은 가능한 범위까지만 작성해 주셔도 됩니다.</p>
+          <p class="note-item">작성해 주신 내용은 담당 강사가 미리 검토하여 1:1 맞춤형 수업에 반영하므로, 수업이 훨씬 효과적으로 진행됩니다.</p>
+          <p class="note-item">수업 중 피드백과 과제는 꼭 스스로 체크해 주세요. 수업 후 별도 안내는 어렵습니다 🙏🏻</p>
+          <p class="note-item">두 번째 수업부터는 담당 강사 메일로 제출해 주세요.<br><span class="red">다음 수업 전날 오후 6시까지</span><br><span style="font-size:12px;color:#666">예) 수요일 수업 → 화요일 오후 6시까지</span><br><span style="font-size:12px;color:#666">바로 다음날이 수업인 경우 → 강사님이 정해준 기한 내 제출</span></p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-device-laptop"></i>수업 준비물</p>
+        <div class="supply-box">
+          <p class="supply-alert">📌 첫 수업 날, 생기부 필참!! (촬영본이 아닌, 복사본 실물)</p>
+          <div class="supply-row">
+            <span class="supply-star">⭐</span>
+            <div class="supply-items">
+              <span class="supply-item">노트북</span>
+              <span class="supply-item">패드</span>
+              <span class="supply-item">필기구</span>
+            </div>
+          </div>
+          <p class="supply-note">셋 중 하나를 꼭 지참해 주세요.<br>가능하시면 노트북이나 패드를 추천드립니다 😊</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-video"></i>메일 첨부 방법</p>
+        <a class="video-btn" href="https://www.youtube.com/shorts/_za4NnQphC8" target="_blank">
+          <i class="ti ti-player-play"></i>
+          <div><p class="video-btn-text">메일 첨부 방법 영상 보기</p><p class="video-btn-sub">클릭하면 유튜브로 이동해요</p></div>
+          <i class="ti ti-external-link video-btn-arrow"></i>
+        </a>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-gift"></i>아르떼 이벤트</p>
+        <div class="event-box">
+          <div class="event-icon">☕</div>
+          <p class="event-title">아르떼 합격 이벤트 🎉</p>
+          <p class="event-desc">학원으로 카톡 주시면<br>커피 교환권을 선물로 보내드려요!<br><span style="font-size:12px;color:#999">(합격 인증 사진 함께 첨부)</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 대입 -->
+    <div class="acc-item">
+      <div class="acc-head" onclick="toggle(this)">
+        <div class="acc-icon"><i class="ti ti-building-community"></i></div>
+        <div class="acc-head-text">
+          <p class="acc-head-title">대입 면접</p>
+          <p class="acc-head-sub">대학교 입학 면접</p>
+        </div>
+        <i class="ti ti-chevron-down acc-chevron"></i>
+      </div>
+      <div class="acc-body">
+        <div class="alert-box">
+          <p>🚨 부모님께서 대신 작성해 주신 자료는 실제 면접에서 학생 본인의 답변으로 이어지지 않기 때문에 받지 않고 있습니다. 학생이 스스로 생각을 정리하여 작성하는 과정이 가장 중요하므로, 반드시 본인이 직접 작성해 주셔야 합니다.</p>
+        </div>
+        <p class="sec-title"><i class="ti ti-clock"></i>자료 제출 기한</p>
+        <div class="deadline-box">
+          <p class="deadline-main"><span class="yellow-ul">수업 이틀 전 오후 9시까지 메일로 보내주세요!</span></p>
+          <p class="deadline-sub">예) 15일 수업 → 13일 저녁 9시까지<br>당일·하루 전 예약 시 → 예약하신 당일 밤 또는 수업 4시간 전까지<br>이메일 또는 학원 카톡</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-paperclip"></i>첨부 자료 (메일 제목: 본인 이름 · hwp 파일)</p>
+        <div class="checklist">
+          <div class="check-item">
+            <div class="check-num">1</div>
+            <div class="check-content">
+              <strong>지원학교 면접 관련 서류</strong>
+              <div class="sub-list">
+                <p class="sub-item">자기소개서 · 생활기록부 · 학업계획서 등</p>
+                <p class="sub-item">제출해야 하는 자료에 한해서</p>
+                <p class="sub-item">생기부 기반 면접은 생기부 필수</p>
+              </div>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">2</div>
+            <div class="check-content">
+              <strong>자기소개 및 질문 항목 — 아래 파일 다운로드 받아주세요! (학생 본인 작성)</strong>
+              <div class="sub-list">
+                <p class="sub-item">1분 자기소개 · 학과 및 학교 지원 동기 · 성격의 장·단점 · 입학 후 학업 및 진로 계획</p>
+              </div>
+              <a class="file-btn" href="https://drive.google.com/uc?export=download&id=1bO9pdIgdvTAre38MhkG1zKQbpnX5SYIu" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">대입 필수발언 가이드라인 (hwp)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+              <a class="file-btn" href="https://docs.google.com/document/d/14ODYRF5Nt5bK8m0NZ0KHwf2hz6ofuaYm/export?format=docx" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">대입 필수발언 가이드라인 (docx)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">3</div>
+            <div class="check-content"><strong>진로·학업 성취와 관련된 대표 경험 (학생 본인 작성)</strong></div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-info-circle"></i>유의사항</p>
+        <div class="note-list">
+          <p class="note-item">②, ③번은 가능한 범위까지만 작성해 주셔도 됩니다.</p>
+          <p class="note-item">작성해 주신 내용은 담당 강사가 미리 검토하여 1:1 맞춤형 수업에 반영하므로, 수업이 훨씬 효과적으로 진행됩니다.</p>
+          <p class="note-item">수업 중 피드백과 과제는 꼭 스스로 체크해 주세요. 수업 후 별도 안내는 어렵습니다 🙏🏻</p>
+          <p class="note-item">두 번째 수업부터는 담당 강사 메일로 제출해 주세요.<br><span class="red">다음 수업 전날 오후 6시까지</span><br><span style="font-size:12px;color:#666">예) 수요일 수업 → 화요일 오후 6시까지</span><br><span style="font-size:12px;color:#666">바로 다음날이 수업인 경우 → 강사님이 정해준 기한 내 제출</span></p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-device-laptop"></i>수업 준비물</p>
+        <div class="supply-box">
+          <div class="supply-row">
+            <span class="supply-star">⭐</span>
+            <div class="supply-items">
+              <span class="supply-item">노트북</span>
+              <span class="supply-item">패드</span>
+              <span class="supply-item">필기구</span>
+            </div>
+          </div>
+          <p class="supply-note">셋 중 하나를 꼭 지참해 주세요.<br>가능하시면 노트북이나 패드를 추천드립니다 😊</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-video"></i>메일 첨부 방법</p>
+        <a class="video-btn" href="https://www.youtube.com/shorts/_za4NnQphC8" target="_blank">
+          <i class="ti ti-player-play"></i>
+          <div><p class="video-btn-text">메일 첨부 방법 영상 보기</p><p class="video-btn-sub">클릭하면 유튜브로 이동해요</p></div>
+          <i class="ti ti-external-link video-btn-arrow"></i>
+        </a>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-gift"></i>아르떼 이벤트</p>
+        <div class="event-box">
+          <div class="event-icon">☕</div>
+          <p class="event-title">아르떼 합격 이벤트 🎉</p>
+          <p class="event-desc">학원으로 카톡 주시면<br>커피 교환권을 선물로 보내드려요!<br><span style="font-size:12px;color:#999">(합격 인증 사진 함께 첨부)</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 편입 -->
+    <div class="acc-item">
+      <div class="acc-head" onclick="toggle(this)">
+        <div class="acc-icon"><i class="ti ti-transfer"></i></div>
+        <div class="acc-head-text">
+          <p class="acc-head-title">편입 면접</p>
+          <p class="acc-head-sub">대학교 편입 면접</p>
+        </div>
+        <i class="ti ti-chevron-down acc-chevron"></i>
+      </div>
+      <div class="acc-body">
+        <p class="sec-title"><i class="ti ti-clock"></i>자료 제출 기한</p>
+        <div class="deadline-box">
+          <p class="deadline-main"><span class="yellow-ul">수업 이틀 전 오후 9시까지 메일로 보내주세요!</span></p>
+          <p class="deadline-sub">예) 15일 수업 → 13일 저녁 9시까지<br>당일·하루 전 예약 시 → 예약하신 당일 밤 또는 수업 4시간 전까지<br>이메일 또는 학원 카톡</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-paperclip"></i>첨부 자료 (메일 제목: 본인 이름 · hwp 파일)</p>
+        <div class="checklist">
+          <div class="check-item">
+            <div class="check-num">1</div>
+            <div class="check-content">
+              <strong>지원학교 면접 관련 서류</strong>
+              <div class="sub-list">
+                <p class="sub-item">자기소개서 · 생활기록부 · 학업계획서 등</p>
+                <p class="sub-item">제출해야 하는 자료에 한해서</p>
+              </div>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">2</div>
+            <div class="check-content">
+              <strong>자기소개 및 질문 항목 — 아래 파일 다운로드 받아주세요! (학생 본인 작성)</strong>
+              <div class="sub-list">
+                <p class="sub-item">1분 자기소개 · 학과 및 학교 지원 동기 · 성격의 장·단점 · 입학 후 학업 및 진로 계획</p>
+              </div>
+              <a class="file-btn" href="https://drive.google.com/uc?export=download&id=1bXKEnp9qJOFZ_icOGBf4go5P4pL-ui17" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">편입 필수발언 가이드라인 (hwp)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+              <a class="file-btn" href="https://docs.google.com/document/d/1HkzXE6BDTURfC9sDwTKVSZakmEg6VLhh/export?format=docx" target="_blank">
+                <i class="ti ti-download"></i>
+                <div><p class="file-btn-text">편입 필수발언 가이드라인 (docx)</p><p class="file-btn-sub">클릭하면 다운로드 됩니다</p></div>
+                <i class="ti ti-external-link file-btn-arrow"></i>
+              </a>
+            </div>
+          </div>
+          <div class="check-item">
+            <div class="check-num">3</div>
+            <div class="check-content"><strong>진로·학업 성취와 관련된 대표 경험 (학생 본인 작성)</strong></div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-info-circle"></i>유의사항</p>
+        <div class="note-list">
+          <p class="note-item">②, ③번은 가능한 범위까지만 작성해 주셔도 됩니다.</p>
+          <p class="note-item">작성해 주신 내용은 담당 강사가 미리 검토하여 1:1 맞춤형 수업에 반영하므로, 수업이 훨씬 효과적으로 진행됩니다.</p>
+          <p class="note-item">수업 중 피드백과 과제는 꼭 스스로 체크해 주세요. 수업 후 별도 안내는 어렵습니다 🙏🏻</p>
+          <p class="note-item">두 번째 수업부터는 담당 강사 메일로 제출해 주세요.<br><span class="red">다음 수업 전날 오후 6시까지</span><br><span style="font-size:12px;color:#666">예) 수요일 수업 → 화요일 오후 6시까지</span><br><span style="font-size:12px;color:#666">바로 다음날이 수업인 경우 → 강사님이 정해준 기한 내 제출</span></p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-device-laptop"></i>수업 준비물</p>
+        <div class="supply-box">
+          <div class="supply-row">
+            <span class="supply-star">⭐</span>
+            <div class="supply-items">
+              <span class="supply-item">노트북</span>
+              <span class="supply-item">패드</span>
+              <span class="supply-item">필기구</span>
+            </div>
+          </div>
+          <p class="supply-note">셋 중 하나를 꼭 지참해 주세요.<br>가능하시면 노트북이나 패드를 추천드립니다 😊</p>
+        </div>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-video"></i>메일 첨부 방법</p>
+        <a class="video-btn" href="https://www.youtube.com/shorts/_za4NnQphC8" target="_blank">
+          <i class="ti ti-player-play"></i>
+          <div><p class="video-btn-text">메일 첨부 방법 영상 보기</p><p class="video-btn-sub">클릭하면 유튜브로 이동해요</p></div>
+          <i class="ti ti-external-link video-btn-arrow"></i>
+        </a>
+        <div class="divider"></div>
+        <p class="sec-title"><i class="ti ti-gift"></i>아르떼 이벤트</p>
+        <div class="event-box">
+          <div class="event-icon">☕</div>
+          <p class="event-title">아르떼 합격 이벤트 🎉</p>
+          <p class="event-desc">학원으로 카톡 주시면<br>커피 교환권을 선물로 보내드려요!<br><span style="font-size:12px;color:#999">(합격 인증 사진 함께 첨부)</span></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+function toggle(head){
+  var item=head.closest('.acc-item');
+  item.classList.toggle('open');
+}
+</script>
+</body>
+</html>
